@@ -1,0 +1,27 @@
+- CSS là cụm từ viết tắt của Cascading Style Sheets
+- Có 3 cách để nhúng các thuộc tính CSS vào trong một file HTML
+  + Cách 1: CSS Inline (nội tuyến) -> Cho thuộc tính style vào bên trong thẻ mở của thẻ HTML
+  + Cách 2: CSS Internal -> Tạo ra cặp thẻ style bên trong cặp thẻ head của file HTML
+  + Cách 3: External -> Tạo ra một file có đuôi .css, sau đấy sẽ được nhúng vào bên trong file HTML thông
+  qua thẻ link được đặt bên  trong cặp thẻ head
+
+  => Trong 3 cách trên thì CSS Inline sẽ có độ ưu tiên lớn nhất
+  => CSS Internal và CSS External có độ ưu tiên ngang nhau, tuy nhiên nó sẽ lấy CSS nào được khai báo
+  sau làm giá trị
+
+
+- Box model: Gồm 4 thành phần chính
+ + Content: Nằm trong cùng thường là các đoạn text, icon,...
+ + Padding: Được tính từ border đến phần Content -> Tăng không gian cho phần tử HTML
+ + Border: Được tính từ Margin đến Padding
+ + Margin: Là phần nằm bên ngoài, dùng để đẩy các item (phần tử) ra xa nhau.
+
+- Đối với Padding, Border, Margin thì quy lượt đặt các giá trị như sau:
+  + Nếu có 1 giá trị thì 4 góc sẽ bị ảnh hưởng
+  + Nếu có 2 giá trị thì: giá trị đầu tiên (top-bottom), giá trị 2 (left-right)
+  + Nếu có 3 giá trị thì: giá trị 1 (top), giá trị 2(left-right), giá trị 3 (bottom)
+  + Nếu có 4 giá trị thì: theo chiều kim đồng hồ các góc bị ảnh hưởng
+
+- Đơn vị px và %
+ + px là đơn vị tuyệt đối
+ + % là đơn vị tương đối

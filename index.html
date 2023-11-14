@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <style>
+      /* tên_thẻ {...code CSS} */
+      /* h1 {
+        background-color: blueviolet;
+        font-size: 40px;
+      } */
+    </style>
+  </head>
+  <body>
+    <h1 class="heading-1 font-40" id="heading-1">Đây là thẻ heading 1</h1>
+
+    <div class="box-parent">
+      <div class="box-1">1</div>
+      <div class="box-2">2</div>
+      <div class="box-3">3</div>
+      <div class="box-4">4</div>
+    </div>
+
+    <div class="box-parent-1">
+      <div class="box-1">1</div>
+      <div class="box-2">2</div>
+      <div class="box-3">3</div>
+      <div class="box-4">4</div>
+      <p>Văn bản</p>
+    </div>
+
+    <!-- Box model -->
+    <div class="box">Box</div>
+
+    <!-- Đơn vị px và % -->
+    <div class="warpper">
+      <div class="box-unit">Box 1</div>
+    </div>
+    <!-- Button -->
+    <div style="margin: 40px">
+      <button class="button">Thêm mới tài khoản</button>
+    </div>
+
+    <!-- Background Image -->
+    <div class="image-container"></div>
+
+    <!-- Form -->
+    <!-- Tên form, Ô nhập liệu, Button thao tác, Chuyển trang -->
+    <div class="main">
+      <form class="form">
+        <h3 class="form-heading">Đăng ký tài khoản</h3>
+        <div class="form-group">
+          <label class="form-label" for="">Họ và tên</label>
+          <input class="form-input" type="text" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="">Email</label>
+          <input class="form-input" type="text" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="">Số điện thoại</label>
+          <input class="form-input" type="text" />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="">Tin nhắn</label>
+          <textarea class="form-input" cols="30" rows="10"></textarea>
+        </div>
+        <div class="form-button">
+          <button class="button">Gửi thông tin</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

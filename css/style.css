@@ -1,0 +1,120 @@
+* {
+  /* Reset CSS */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  /* background-color: rgb(47, 255, 0);
+  font-size: 20px; */
+}
+
+#heading-1 {
+  font-style: italic;
+  color: blue;
+}
+
+.heading-1 {
+  background-color: cadetblue;
+}
+
+.font-40 {
+  font-size: 40px;
+}
+
+.box-parent div,
+.box-parent-1 div {
+  color: blue;
+}
+
+.box-parent div:first-child {
+  color: brown;
+}
+
+.box-parent div:last-child {
+  font-size: 30px;
+}
+
+.box-parent div:nth-child(2) {
+  font-size: 25px;
+}
+
+.box-parent div:nth-child(3) {
+  font-size: 25px;
+  color: blueviolet;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: yellow;
+  /* padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px; */
+  padding: 20px;
+  /* border-width: 5px; */
+  /* border-color: brown; */
+  /* border-style: dashed; */
+  /* border-style: dotted; */
+  /* border-style: solid; */
+  border: 5px solid red;
+  margin: 20px;
+  text-align: center;
+  line-height: 300px;
+  /* border-radius: 50%; */
+}
+
+.warpper {
+  height: 200px;
+  background-color: aqua;
+  width: 60%;
+}
+
+.box-unit {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+
+/* CSS button */
+
+.button {
+  min-width: 80px;
+  height: 36px;
+  border-radius: 4px;
+  padding: 0 16px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  background-color: #50b83c;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #58db3d;
+}
+
+.button:active {
+  background-color: #32eb0d;
+}
+
+.button:focus {
+  background-color: #1f9a07;
+}
+
+.button:disabled {
+  background-color: #99d38e;
+  cursor: not-allowed;
+}
+
+/* Background image */
+.image-container {
+  height: 400px;
+  width: 700px;
+  background-color: #58db3d;
+  background-image: url("https://vcdn1-vnexpress.vnecdn.net/2019/09/29/2-1569755302.jpg?w=460&h=0&q=100&dpr=2&fit=crop&s=c6EgX5LmsEi-gLmItfObog");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+}
